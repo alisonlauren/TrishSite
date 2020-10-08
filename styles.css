@@ -1,39 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap');
 
-.navbar {
-    background-image: url(teal.jpg);
-    font-size: 80%;
-
-}
-body {
-    background-image: url(smwood.jpeg)
-}
-
-h1 {
-    display: flex;
-    justify-content: center;
-    color: rgb(255, 255, 255);
-    font-family: 'Sansita Swashed', cursive;
-    padding-top: 2%;
-    font-size: 550%;
-    
+h2, p, h3 {
+    color: white;
+    font-family: 'Sansita Swashed', cursive;    
 }
 
 h2 {
-    display: flex;
-    justify-content: center;
-    color: rgb(255, 255, 255);
-    font-family: 'Sansita Swashed', cursive;
+    font-size: 100px;
+}
+
+/* Remove the navbar's default rounded borders and increase the bottom margin */ 
+body {
+    background-image: url(lighter.jpeg);
+}
+
+.navbar {
+    margin-bottom: 50px;
+    border-radius: 0;
+}
+
+/* Remove the jumbotron's default bottom margin */ 
+    .jumbotron {
+    margin-bottom: 0;
+    background-color: rgb(3, 150, 150);
+    border: 10px solid rgb(199, 197, 197);
+    /* background-image: url(woodteal.jpg) */
 
 }
 
-.card-group {
-    padding-top: 10%;
-    text-align: center;
-    padding-left: 15%;
-    padding-right: 15%;
+/* Add a gray background color and some padding to the footer */
+footer {
+    background-color: rgb(3, 150, 150);
+    border: 10px solid rgb(199, 197, 197);
     
+}
 
+.title {
+    color: green;
 }
 
 
