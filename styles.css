@@ -1,43 +1,84 @@
-@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@500&display=swap');
 
-h2, p, h3 {
-    color: white;
-    font-family: 'Sansita Swashed', cursive;    
+
+h1, p, h2, .nav-bar {
+    font-family: 'Sansita Swashed', cursive;
+    
 }
-
 h2 {
-    font-size: 100px;
+    font-size: xx-large;
+
 }
 
-/* Remove the navbar's default rounded borders and increase the bottom margin */ 
+#nav-bar-item {
+    font-family: 'Sansita Swashed', cursive;
+
+}
+
 body {
-    background-image: url(lighter.jpeg);
+    display: flex;
+    flex-direction: column;  
+    color: black;
 }
 
-.navbar {
-    margin-bottom: 50px;
-    border-radius: 0;
-}
-
-/* Remove the jumbotron's default bottom margin */ 
-    .jumbotron {
-    margin-bottom: 0;
-    background-color: rgb(3, 150, 150);
-    border: 10px solid rgb(199, 197, 197);
-    /* background-image: url(woodteal.jpg) */
-
-}
-
-/* Add a gray background color and some padding to the footer */
-footer {
-    background-color: rgb(3, 150, 150);
-    border: 10px solid rgb(199, 197, 197);
+.jumbotron {
+    color: white;
+    background-image: url(darkwood.jpeg);
+    text-align: center;
+    border: 15px solid grey;
     
 }
 
-.title {
-    color: green;
+.footer {
+    background-color: rgb(7, 148, 148);
+    text-align: center;
+    margin: 0;
+    
+    }
+
+.footer p {
+    font-size: 12px;
 }
 
+.nav-bar {
+    background-color: rgb(7, 148, 148);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.nav-bar-menu {
+    display: flex;
+    line-height: 2;
+    list-style-type: none;
+    margin: 0;
+    padding-top: 5px;
+}
+
+.nav-bar-item {
+    padding: 5px 10px;
+    color: white;
+}
+
+.nav-bar-item a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+#button {
+    scroll-padding-inline: center;
+    border-radius: 10px;
+}
+
+.card-deck {
+    margin-top: -2.2%;
+    background-image: url(smwood.jpeg);
+}
+
+#card2 {
+    margin-top: 2%;
+}
 
 
